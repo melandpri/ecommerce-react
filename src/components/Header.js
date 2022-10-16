@@ -5,7 +5,7 @@ const Header = (props) => {
     return ( 
         <>
             <Topbar/>
-            <Navbar navcount={props.count}/>
+            <Navbar increment ={props.incre} setincrement={props.setincre} navcount={props.count} navincrementProduct={props.incrementProduct} decreProduct={props.deProduct}/>
         </>
      );
 }

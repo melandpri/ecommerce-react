@@ -29,7 +29,7 @@ const Featured = () => {
                         <p style={{color:'#1E1E27'}} className="fs-6">Secondes</p>
                     </div>
                 </div>
-                <button className="text-uppercase text-white float-end mb-5 p-2 border border-none rounded-2" style={{backgroundColor:'#FD3035'}}>shop now <FontAwesomeIcon  style={{Color:'#FD3035'}} className='align-self-center ms-2 border border-none  bg-white p-2 rounded-circle' icon={faArrowRight}/></button>
+                <button className="text-uppercase text-white float-end mb-5 p-2 border border-none rounded-2" style={{backgroundColor:'#FD3035'}}>shop now <FontAwesomeIcon  style={{Color:'#FD3035'}} className='align-self-center ms-2 border border-none  bg-white p-1 rounded-circle' icon={faArrowRight}/></button>
 
             </div>
         </div>
